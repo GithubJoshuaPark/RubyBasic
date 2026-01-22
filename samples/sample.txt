@@ -1,0 +1,4 @@
+Ruby is fun!
+File I/O is easy.
+This is the third line.
+This line is appended.
