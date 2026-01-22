@@ -1,3 +1,4 @@
+# typed: true
 require_relative 'lib/todo_manager'
 require_relative 'utils/Utils'
 

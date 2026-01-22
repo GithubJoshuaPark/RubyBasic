@@ -1,3 +1,4 @@
+# typed: true
 # 03_file_io.rb
 require_relative 'utils/Utils'
 

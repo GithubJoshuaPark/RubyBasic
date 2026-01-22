@@ -155,3 +155,29 @@ end
 TodoItem: 속성(String, Boolean)과 메서드 입출력 타입 정의
 JsonStore: 파일 입출력 데이터 구조(Hash 배열) 타입 정의
 TodoManager: 괸리 로직의 파라미터(index 등) 타입 정의
+
+```bash
+# Gemfile에 정의된 의존성 설치
+$ bundle install
+
+# sorbet 추가 in Gemfile, Gemfile.lock에 추가
+# --group development 옵션을 줘서 개발용 그룹에 추가합니다.
+$ bundle add sorbet --group "development"
+
+# sorbet-runtime 추가 in Gemfile, Gemfile.lock에 추가
+$ bundle add sorbet-runtime
+
+# Sorbet이 프로젝트를 스캔하고 초기 설정 파일(sorbet/config) 생성
+$ bundle exec srb init
+
+# 타입 체크
+$ bundle exec srb tc
+# No errors! Great job.
+
+# main.rb 실행
+$ bundle exec ruby main.rb
+```
+
+```bash
+$ srb init
+```

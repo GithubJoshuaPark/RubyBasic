@@ -1,3 +1,4 @@
+# typed: true
 # 07_class_inheritance.rb
 
 module ClassInheritance

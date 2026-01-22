@@ -1,3 +1,4 @@
+# typed: false
 require_relative 'samples/utils/Utils'
 
 module Main

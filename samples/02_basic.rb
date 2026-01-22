@@ -1,3 +1,4 @@
+# typed: true
 # 02_basic.rb
 require_relative 'utils/Utils'
 

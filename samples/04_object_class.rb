@@ -1,3 +1,4 @@
+# typed: true
 # 04_object_class.rb
 require_relative 'utils/Utils'
 

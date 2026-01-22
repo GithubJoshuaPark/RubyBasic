@@ -1,4 +1,4 @@
-# typed: true
+# typed: strict
 require 'sorbet-runtime'
 require_relative 'todo_item'
 require_relative 'json_store'

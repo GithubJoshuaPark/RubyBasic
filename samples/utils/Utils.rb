@@ -1,3 +1,4 @@
+# typed: false
 # 1. Module Definition (Mixin)
 # Modules cannot be instantiated (no .new), but can be included in classes.
 module Utils
