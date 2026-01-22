@@ -178,6 +178,4 @@ $ bundle exec srb tc
 $ bundle exec ruby main.rb
 ```
 
-```bash
-$ srb init
-```
+![intro.png](intro.png)
